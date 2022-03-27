@@ -1,0 +1,84 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+/* TODO: REMPLACER L'ALIGNEMENT PAR FLEX ! */
+
+
+/* PREMIÈRE SECTION (BLOCK BLANC) */
+
+.premiereSections {
+    height: 100%;
+    width: 100%;
+}
+
+h1.titre_premier {
+    top: 50%;
+}
+
+img.img_kfc{
+    max-height: 30%;
+    max-width: 30%;
+    margin: 15% auto;
+}
+
+
+/* DEUXIÈME SECTION */
+.deuxiemeSection {
+    height: 100%;
+    width: 100%;
+}
+
+.paragraphe_deuxieme{
+    margin-top: 30%;
+}
+
+img.deliveryman{
+    margin-top: 50%;
+}
+/* TROISIÈME SECTION */
+
+.troisiemeSection {
+    height: 100%;
+    width: 100%;
+}
+.paragraphe_troisieme{
+    margin-top: 30%;
+}
+
+img.truckLoaded{
+    margin-top: 50%;
+}
+
+/* QUATRIÈME SECTION */
+
+.quatriemeSection{
+    height: 80%;
+    width: 100%;
+}
+
+/* Responive bullshit */
+
+@media (max-width: 500px){
+    .premiereSections{
+        background-color: #F3F3F3;
+    }
+    .titre_premier{
+        font-size: 10vw;
+        margin-top: 10px;
+    }
+    .img_kfc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50%;
+    }
+    .bar_menu{
+        margin-top: 50px;
+        font-size: 10vw;
+        text-align: center;
+    }
+}
