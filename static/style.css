@@ -19,13 +19,13 @@ h1.titre_premier {
     top: 50%;
 }
 
-img.img_kfc{
+img.img_kfc {
     max-height: 30%;
     max-width: 30%;
     margin: 15% auto;
 }
 
-h1.bar_menu{
+h1.bar_menu {
     margin-bottom: 50%;
 }
 
@@ -36,12 +36,12 @@ h1.bar_menu{
     width: 100%;
 }
 
-.paragraphe_deuxieme{
+.paragraphe_deuxieme {
     margin-top: 30%;
     margin-right: 10%;
 }
 
-img.deliveryman{
+img.deliveryman {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,46 +50,95 @@ img.deliveryman{
     margin-bottom: 50%;
     margin-left: 10%;
 }
+
 /* TROISIÈME SECTION */
 
 .troisiemeSection {
     height: 100%;
     width: 100%;
 }
-.paragraphe_troisieme{
+
+.paragraphe_troisieme {
     margin-top: 30%;
 }
 
-img.truckLoaded{
+img.truckLoaded {
     margin-top: 50%;
 }
 
 /* QUATRIÈME SECTION */
 
-.quatriemeSection{
+.quatriemeSection {
     height: 80%;
     width: 100%;
 }
 
 /* Responive bullshit */
 
-@media (max-width: 500px){
-    .premiereSections{
+@media (max-width: 500px) {
+    .premiereSections {
         background-color: #F3F3F3;
     }
-    .titre_premier{
+
+    .titre_premier {
         font-size: 10vw;
         margin-top: 10px;
     }
-    .img_kfc{
+
+    .img_kfc {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 50%;
     }
-    .bar_menu{
+
+    .bar_menu {
         margin-top: 50px;
         font-size: 10vw;
         text-align: center;
     }
+}
+
+.btn-three {
+    color: #cdcdcd;
+    transition: all 0.5s;
+    position: relative;
+    margin-bottom: 50%;
+    font-size: 3rem;
+}
+
+.btn-three::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s;
+}
+
+.btn-three:hover::before {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+}
+
+.btn-three::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transform: scale(1.2, 1.2);
+}
+
+.btn-three:hover::after {
+    opacity: 1;
+    transform: scale(1, 1);
 }
