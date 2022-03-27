@@ -25,6 +25,10 @@ img.img_kfc{
     margin: 15% auto;
 }
 
+h1.bar_menu{
+    margin-bottom: 50%;
+}
+
 
 /* DEUXIÈME SECTION */
 .deuxiemeSection {
@@ -34,10 +38,17 @@ img.img_kfc{
 
 .paragraphe_deuxieme{
     margin-top: 30%;
+    margin-right: 10%;
 }
 
 img.deliveryman{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
     margin-top: 50%;
+    margin-bottom: 50%;
+    margin-left: 10%;
 }
 /* TROISIÈME SECTION */
 
