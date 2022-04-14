@@ -37,18 +37,13 @@ h1.bar_menu {
 }
 
 .paragraphe_deuxieme {
-    margin-top: 30%;
-    margin-right: 10%;
+    margin-top: 20%;
+    margin-bottom: 20%;
 }
 
 img.deliveryman {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: red;
-    margin-top: 50%;
-    margin-bottom: 50%;
-    margin-left: 10%;
+    margin-top: 30%;
+    margin-left: 20%;
 }
 
 /* TROISIÈME SECTION */
@@ -59,11 +54,15 @@ img.deliveryman {
 }
 
 .paragraphe_troisieme {
-    margin-top: 30%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+
 }
 
 img.truckLoaded {
-    margin-top: 50%;
+    margin-top: 30%;
+    margin-left: 20%;
+
 }
 
 /* QUATRIÈME SECTION */
@@ -74,6 +73,20 @@ img.truckLoaded {
 }
 
 /* Responive bullshit */
+@media (max-width: 680px) {
+    .titre_premier{
+        font-size: 11vw;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .titre_premier{
+        font-size: 12vw;
+    }
+}
+
+
 
 @media (max-width: 500px) {
     .premiereSections {
@@ -99,6 +112,26 @@ img.truckLoaded {
     }
 }
 
+
+@media (max-width: 1650px) {
+    .img.truckLoaded{
+    }
+
+    img.deliveryman{
+
+    }
+}
+
+@media (max-width: 1400px) {
+    .img.truckLoaded{
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+
+    img.deliveryman{
+
+    }
+}
 .btn-three {
     color: #cdcdcd;
     transition: all 0.5s;
