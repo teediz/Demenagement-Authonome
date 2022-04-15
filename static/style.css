@@ -38,15 +38,20 @@ h1.bar_menu {
 
 .paragraphe_deuxieme {
     margin-top: 20%;
-    margin-bottom: 20%;
+    margin-left: 20%;
+    margin-right: 10%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 img.deliveryman {
+    max-width: 100%;
     margin-top: 30%;
     margin-left: 20%;
 }
 
 /* TROISIÈME SECTION */
+
 
 .troisiemeSection {
     height: 100%;
@@ -55,13 +60,12 @@ img.deliveryman {
 
 .paragraphe_troisieme {
     margin-top: 20%;
-    margin-bottom: 20%;
-
+    margin-bottom: 30%;
 }
 
 img.truckLoaded {
     margin-top: 30%;
-    margin-left: 20%;
+    margin-bottom: 40%;
 
 }
 
@@ -85,8 +89,6 @@ img.truckLoaded {
         font-size: 12vw;
     }
 }
-
-
 
 @media (max-width: 500px) {
     .premiereSections {
@@ -112,26 +114,19 @@ img.truckLoaded {
     }
 }
 
-
-@media (max-width: 1650px) {
+@media (max-width: 1571px) {
     .img.truckLoaded{
     }
 
     img.deliveryman{
 
     }
-}
 
-@media (max-width: 1400px) {
-    .img.truckLoaded{
-        margin-top: 0%;
-        margin-left: 0%;
-    }
-
-    img.deliveryman{
-
+    .paragraphe_deuxieme{
+        margin-right: 50px;
     }
 }
+
 .btn-three {
     color: #cdcdcd;
     transition: all 0.5s;
