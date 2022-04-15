@@ -59,13 +59,13 @@ img.deliveryman {
 }
 
 .paragraphe_troisieme {
-    margin-top: 20%;
-    margin-bottom: 30%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 img.truckLoaded {
-    margin-top: 30%;
-    margin-bottom: 40%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 
 }
 
@@ -78,14 +78,15 @@ img.truckLoaded {
 
 /* Responive bullshit */
 @media (max-width: 680px) {
-    .titre_premier{
+    .titre_premier {
         font-size: 11vw;
     }
 }
 
 
+
 @media (max-width: 600px) {
-    .titre_premier{
+    .titre_premier {
         font-size: 12vw;
     }
 }
@@ -115,14 +116,14 @@ img.truckLoaded {
 }
 
 @media (max-width: 1571px) {
-    .img.truckLoaded{
+    .img.truckLoaded {
     }
 
-    img.deliveryman{
+    img.deliveryman {
 
     }
 
-    .paragraphe_deuxieme{
+    .paragraphe_deuxieme {
         margin-right: 50px;
     }
 }
