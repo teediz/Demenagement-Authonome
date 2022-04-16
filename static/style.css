@@ -20,9 +20,12 @@ h1.titre_premier {
 }
 
 img.img_kfc {
-    max-height: 30%;
-    max-width: 30%;
-    margin: 15% auto;
+    width: 20rem;
+    height: 15rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10%;
+    position: relative;
 }
 
 h1.bar_menu {
@@ -127,7 +130,7 @@ img.truckLoaded {
         margin-right: 50px;
     }
 }
-
+/*
 .btn-three {
     color: #cdcdcd;
     transition: all 0.5s;
@@ -176,28 +179,20 @@ img.truckLoaded {
 * {
   box-sizing: border-box;
 }
+*/
 
-body {
-  margin: 0px;
-  font-family: 'segoe ui';
-}
 
 .nav {
-  height: 50px;
+  height: 20%;
   width: 100%;
+    margin-bottom: 10vm;
   background-color: #4d4d4d;
-  position: relative;
+  position: fixed;
+
 }
 
 .nav > .nav-header {
   display: inline;
-}
-
-.nav > .nav-header > .nav-title {
-  display: inline-block;
-  font-size: 22px;
-  color: #fff;
-  padding: 10px 10px 10px 10px;
 }
 
 .nav > .nav-btn {
@@ -206,8 +201,8 @@ body {
 
 .nav > .nav-links {
   display: inline;
-  float: right;
-  font-size: 18px;
+  font-size: 50px;
+
 }
 
 .nav > .nav-links > a {
